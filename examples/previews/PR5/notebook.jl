@@ -23,7 +23,7 @@ end
 cuda_diamond(2000)
 
 # ╔═╡ 698b9232-4117-421f-b561-6c93d606f6b9
-to_img(adapt(Array, cuda_diamond(2000)))
+AztecDiamonds.to_img(adapt(Array, cuda_diamond(2000)))
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -84,9 +84,9 @@ version = "0.4.6"
 
 [[deps.AztecDiamonds]]
 deps = ["Adapt", "CUDA", "Colors", "Folds", "FoldsCUDA", "ImageIO", "ImageShow", "OffsetArrays", "Referenceables", "Transducers"]
-git-tree-sha1 = "46e4bed292b0d713a9388d3438b925aee5a3a115"
-repo-rev = "340f661c65940a58e09aa2e8bb0268c7790c9a42"
-repo-url = "/var/lib/buildkite-agent/builds/gpuci-16/julialang/aztecdiamonds-dot-jl"
+git-tree-sha1 = "b5809c3e56831c2b8d4cc9558ff34c32a8cba176"
+repo-rev = "5be0e2d3082e8a768345d9e511d6c55ca5864259"
+repo-url = "/var/lib/buildkite-agent/builds/gpuci-7/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
 version = "0.1.0"
 
