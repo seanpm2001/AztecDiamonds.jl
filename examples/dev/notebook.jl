@@ -114,9 +114,9 @@ version = "0.4.6"
 
 [[deps.AztecDiamonds]]
 deps = ["Adapt", "CUDA", "Colors", "Folds", "FoldsCUDA", "GeometryBasics", "ImageIO", "ImageShow", "MakieCore", "OffsetArrays", "Referenceables", "Transducers"]
-git-tree-sha1 = "538323cc76ef883365fe6202273fba5498b37f60"
+git-tree-sha1 = "44dba62597e43f6ebb2ae19b978b567a4e17239d"
 repo-rev = "main"
-repo-url = "/var/lib/buildkite-agent/builds/gpuci-11/julialang/aztecdiamonds-dot-jl"
+repo-url = "/var/lib/buildkite-agent/builds/gpuci-17/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
 version = "0.1.3"
 
