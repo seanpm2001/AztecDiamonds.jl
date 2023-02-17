@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.20
+# v0.19.22
 
 using Markdown
 using InteractiveUtils
@@ -114,11 +114,11 @@ version = "0.4.6"
 
 [[deps.AztecDiamonds]]
 deps = ["Adapt", "CUDA", "Colors", "Folds", "FoldsCUDA", "GeometryBasics", "ImageIO", "ImageShow", "MakieCore", "OffsetArrays", "Referenceables", "Transducers"]
-git-tree-sha1 = "ebd041696b0a15e24f9f0ce3bceaf7c68d69f46b"
+git-tree-sha1 = "538323cc76ef883365fe6202273fba5498b37f60"
 repo-rev = "main"
 repo-url = "/var/lib/buildkite-agent/builds/gpuci-11/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
-version = "0.1.2"
+version = "0.1.3"
 
 [[deps.BFloat16s]]
 deps = ["LinearAlgebra", "Printf", "Random", "Test"]
