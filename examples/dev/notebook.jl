@@ -114,9 +114,9 @@ version = "0.4.6"
 
 [[deps.AztecDiamonds]]
 deps = ["Adapt", "CUDA", "Colors", "Folds", "FoldsCUDA", "GeometryBasics", "ImageIO", "ImageShow", "MakieCore", "OffsetArrays", "Referenceables", "Transducers"]
-git-tree-sha1 = "44dba62597e43f6ebb2ae19b978b567a4e17239d"
+git-tree-sha1 = "80375a51f2d4b8a3111ae1fbd45cd8989b9c9441"
 repo-rev = "main"
-repo-url = "/var/lib/buildkite-agent/builds/gpuci-17/julialang/aztecdiamonds-dot-jl"
+repo-url = "/var/lib/buildkite-agent/builds/gpuci-5/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
 version = "0.1.3"
 
@@ -659,9 +659,9 @@ version = "4.15.0"
 
 [[deps.LLVMExtra_jll]]
 deps = ["Artifacts", "JLLWrappers", "LazyArtifacts", "Libdl", "Pkg", "TOML"]
-git-tree-sha1 = "771bfe376249626d3ca12bcd58ba243d3f961576"
+git-tree-sha1 = "7718cf44439c676bc0ec66a87099f41015a522d6"
 uuid = "dad2f222-ce93-54a1-a47d-0025e8a3acab"
-version = "0.0.16+0"
+version = "0.0.16+2"
 
 [[deps.LZO_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Pkg"]
