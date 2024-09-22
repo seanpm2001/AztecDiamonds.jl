@@ -6,8 +6,8 @@ using InteractiveUtils
 
 # ╔═╡ a609b8a8-04ac-4533-9a33-61ea33805846
 begin
-	using AztecDiamonds, CairoMakie
-	CairoMakie.activate!(type = "svg")
+    using AztecDiamonds, CairoMakie
+    CairoMakie.activate!(type = "svg")
 end
 
 # ╔═╡ ab0968e2-43c7-4610-87ba-47433c003081
@@ -21,12 +21,12 @@ D = diamond(N)
 
 # ╔═╡ 1cf94d6d-a0bc-474b-b479-5b4f4c916ea5
 let
-	f = Figure()
-	ax = Axis(f[1, 1]; aspect=1)
-	plot!(ax, D; domino_padding=0)
-	lines!(ax, -N:N, parent(dr_path(D)); linewidth=3, label="DR-path", color=:orange)
-	axislegend(ax)
-	f
+    f = Figure()
+    ax = Axis(f[1, 1]; aspect = 1)
+    plot!(ax, D; domino_padding = 0)
+    lines!(ax, -N:N, parent(dr_path(D)); linewidth = 3, label = "DR-path", color = :orange)
+    axislegend(ax)
+    f
 end
 
 # ╔═╡ 8bb0983b-103e-4cf8-9a9f-95feb90df054
@@ -158,12 +158,16 @@ uuid = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 version = "0.4.7"
 
 [[deps.AztecDiamonds]]
-deps = ["Adapt", "Colors", "GeometryBasics", "ImageIO", "ImageShow", "KernelAbstractions", "MakieCore", "OffsetArrays", "Transducers"]
-git-tree-sha1 = "f5448787c017f4b1cda212030a46812a04089ea7"
+deps = ["Adapt", "Colors", "ImageIO", "ImageShow", "KernelAbstractions", "OffsetArrays", "Transducers"]
+git-tree-sha1 = "b1197af135860a88465003f3ef9f9c592d4fe157"
 repo-rev = "main"
-repo-url = "/var/lib/buildkite-agent/builds/gpuci-14/julialang/aztecdiamonds-dot-jl"
+repo-url = "/var/lib/buildkite-agent/builds/gpuci-3/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
-version = "0.2.2"
+version = "0.2.3"
+weakdeps = ["GeometryBasics", "Makie"]
+
+    [deps.AztecDiamonds.extensions]
+    MakieExtension = ["Makie", "GeometryBasics"]
 
 [[deps.BFloat16s]]
 deps = ["LinearAlgebra", "Printf", "Random", "Test"]
