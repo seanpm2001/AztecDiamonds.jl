@@ -160,9 +160,9 @@ version = "0.4.7"
 
 [[deps.AztecDiamonds]]
 deps = ["Adapt", "Base64", "Colors", "ImageIO", "ImageShow", "KernelAbstractions", "OffsetArrays", "Transducers"]
-git-tree-sha1 = "06a7514461dc2dae56e4c1a59a45737edccbbf32"
+git-tree-sha1 = "bbbea2e579119c0d239502fd3d57cc79c9d2d92d"
 repo-rev = "main"
-repo-url = "/var/lib/buildkite-agent/builds/gpuci-16/julialang/aztecdiamonds-dot-jl"
+repo-url = "/var/lib/buildkite-agent/builds/gpuci-4/julialang/aztecdiamonds-dot-jl"
 uuid = "8762d9c5-fcab-4007-8fd1-c6de73397726"
 version = "0.2.5"
 weakdeps = ["GeometryBasics", "Makie"]
